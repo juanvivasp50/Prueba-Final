@@ -1,0 +1,68 @@
+.hero {
+    background-image: url(../img/yo.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 43rem;
+}
+
+.hero h1 {
+    padding-top: 25rem;
+}
+
+.hero span {
+    font-family: 'Oswald', sans-serif;
+}
+
+header p {
+    width: 1rem;
+}
+
+.roboto {
+    font-family: 'Roboto';
+}
+
+.parrafoxd {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    justify-content: center;
+}
+
+.oswald {
+    font-family: 'Oswald', sans-serif;
+}
+
+.footerxd a {
+    margin-right: 20px;
+    font-size: 3.5rem;
+    margin-bottom: 3rem;
+}
+
+.boton {
+    text-align: center;
+    margin-top: 1.5rem;
+    font-size: 2rem;
+}
+
+.boton a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.4rem;
+}
+
+.carousel-indicators {
+    top: 50px;
+}
+
+.carousel-item {
+    transition: 1.5s;
+}
+
+@media (max-width: 992px) {
+    .carouselxd {
+        display: none;
+    }
+    .sobremixd {
+        display: none;
+    }
+}

@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5a21ad77c9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#"><i class="fas fa-briefcase fa-2x"></i></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#sobremi">Sobre mi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#experiencia">Experiencia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#trabajos">Trabajos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <h1 class="text-center text-light text-uppercase display-3">Yo soy <br> <span> <u>Juan</u></span></h1>
+
+            <div class="boton">
+                <button type="button" class="btn btn-secondary text-light oswald font-weight-bold px-5" data-toggle="tooltip" data-placement="bottom" title="Da click para ver mis trabajos"><a href="#trabajos">Mis trabajos</a></button>
+            </div>
+        </div>
+
+    </header>
+
+    <section class="carouselxd">
+        <div class="container my-5 py-3">
+            <div class="row">
+                <div class="col-4 p-4 text-right">
+                    <h1 class="h1 text-dark text-center font-weight-bold text-uppercase oswald"><u>Me has visto en:</u></h1>
+                </div>
+
+                <div class="col-8 bg-dark text-white rounded pt-4 pb-5">
+                    <div id="blogCarousel" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#blogCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#blogCarousel" data-slide-to="1"></li>
+                        </ol>
+
+                        <div class="carousel-inner text-center">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-3">
+                                        <i class="fab fa-steam fa-2x" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Steam" data-trigger="hover"></i>
+                                    </div>
+
+                                    <div class="col-3">
+                                        <i class="fab fa-xbox fa-2x" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Xbox" data-trigger="hover"></i>
+                                    </div>
+
+                                    <div class="col-3">
+                                        <i class="fab fa-twitch fa-2x" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Twitch" data-trigger="hover"></i>
+                                    </div>
+
+                                    <div class="col-3">
+                                        <i class="fab fa-google fa-2x" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Google" data-trigger="hover"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-3">
+                                        <i class="fab fa-pinterest fa-2x" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Pinterest" data-trigger="hover"></i>
+                                    </div>
+
+                                    <div class="col-3">
+                                        <i class="fab fa-linkedin fa-2x" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Linkedin" data-trigger="hover"></i>
+                                    </div>
+
+                                    <div class="col-3">
+                                        <i class="fab fa-apple fa-2x" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Apple" data-trigger="hover"></i>
+                                    </div>
+
+                                    <div class="col-3">
+                                        <i class="fab fa-d-and-d fa-2x" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Dungeons & Dragons" data-trigger="hover"></i>
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </section>
+
+    <section id="sobremi" class="sobremixd">
+        <div class="container">
+            <h1 class="h1 text-dark text-center font-weight-bold text-uppercase my-5 oswald"><u>Sobre mi</u></h1>
+            <p class="h1 text-dark text-center my-5 oswald">En esta sección explico un poco sobre quién es Juan Vivas</p>
+            <div class="row">
+                <div class="col-lg-6">
+                    <p class="text-center roboto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat sed sed ante. Curabitur vel lacinia
+                        nisi. Sed mollis condimentum rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem, mollis sit amet gravida in, finibus ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi blandit, euismod ipsum
+                        eu, lobortis nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies sem eu massa pellentesque, id interdum nibh luctus. Nam ac orci id neque posuere aliquam.</p>
+                </div>
+                <div class="col-lg-6">
+                    <p class="text-center roboto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat sed sed ante. Curabitur vel lacinia
+                        nisi. Sed mollis condimentum rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem, mollis sit amet gravida in, finibus ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi blandit, euismod ipsum
+                        eu, lobortis nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies sem eu massa pellentesque, id interdum nibh luctus. Nam ac orci id neque posuere aliquam.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experiencia">
+        <div class="container">
+            <h1 class="h1 text-dark text-center font-weight-bold text-uppercase my-5 oswald"><u>Mi experiencia</u></h1>
+            <p class="h1 text-dark text-center my-5 oswald">Experiencias laborales</p>
+
+            <div class="row text-center mt-5">
+                <div class="col-lg-6">
+                    <i class="fab fa-steam fa-5x"></i>
+                    <p class="mt-3 oswald h4">Steam</p>
+                    <p class="h5 mt-3">2008 - 2009</p>
+                </div>
+
+                <div class="col-lg-6">
+                    <i class="fab fa-xbox fa-5x"></i>
+                    <p class="mt-3 oswald h4">Xbox</p>
+                    <p class="h5 mt-3">2010 - Presente</p>
+                </div>
+            </div>
+            <p class="h1 text-dark text-center my-5 oswald">Estudios</p>
+            <div class="row text-center mt-5">
+                <div class="col-lg-6">
+                    <i class="fas fa-university fa-5x"></i>
+                    <p class="mt-3 oswald h4">UFT</p>
+                    <p class="h5 mt-3">2015 - 2018</p>
+                </div>
+
+                <div class="col-lg-6">
+                    <i class="fas fa-graduation-cap fa-5x"></i>
+                    <p class="mt-3 oswald h4">Harvard</p>
+                    <p class="h5 mt-3">2012 - 2016</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="trabajos" class="bg bg-dark my-5">
+        <div class="container">
+            <h1 class="h1 text-light text-center py-5 font-weight-bold text-uppercase oswald">Mis últimos trabajos</h1>
+            <div class="card-deck mb-5">
+                <div class="card">
+                    <img src="assets/img/meet_coffee.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title h3 oswald">Meet&Coffee</h5>
+                        <p class="card-text roboto">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/img/iguana_page.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title h3 oswald">Iguana Page</h5>
+                        <p class="card-text roboto">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/img/suricata.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title h3 oswald">Suricata</h5>
+                        <p class="card-text roboto">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-deck pb-5">
+                <div class="card">
+                    <img src="assets/img/cuppon.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title h3 oswald">Cuppon</h5>
+                        <p class="card-text roboto">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/img/ricomida.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title h3 oswald">Ricomida</h5>
+                        <p class="card-text roboto">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/img/dmark.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title h3 oswald">DMark</h5>
+                        <p class="card-text roboto">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <div class="container">
+            <h1 class="h1 text-dark text-center font-weight-bold text-uppercase m-5 oswald"><u>Contacto</u></h1>
+            <div class="typeform-widget" data-url="https://juanvivasperez123.typeform.com/to/rkCJaT" style="width: 100%; height: 500px;"></div>
+            <script>
+                (function() {
+                    var qs, js, q, s, d = document,
+                        gi = d.getElementById,
+                        ce = d.createElement,
+                        gt = d.getElementsByTagName,
+                        id = "typef_orm",
+                        b = "https://embed.typeform.com/";
+                    if (!gi.call(d, id)) {
+                        js = ce.call(d, "script");
+                        js.id = id;
+                        js.src = b + "embed.js";
+                        q = gt.call(d, "script")[0];
+                        q.parentNode.insertBefore(js, q)
+                    }
+                })()
+            </script>
+            <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=rkCJaT&utm_source=typeform.com-01E6MM19AK0CCF2HGG2643YHZZ-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999" target="_blank">Typeform</a>                </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark p-4 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h1 class="text-light h1 text-uppercase oswald text-center font-weight-bold mt-2">Juan</h1>
+                </div>
+                <div class="col-lg-6">
+                    <div class="footerxd">
+                        <a class="text-light h1 text-uppercase" href="https://www.github.com" target="_blank"><i class="fab fa-github-square"></i></a>
+                        <a class="text-light h1 text-uppercase" href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a class="text-light h1 text-uppercase" href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                        <a class="text-light h1 text-uppercase" href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
